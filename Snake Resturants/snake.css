@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    justify-content: center;
+    background-color: rgb(66, 65, 65);
+    color: white;
+}
+nav div{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+nav div p{
+    text-transform: uppercase   ;
+    font-weight: initial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px
+}
+nav .img img{
+    display: block;
+    width: 100px;
+    object-fit: cover;
+}
+
+section{
+    background-image: url(./images/menu2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 21;
+    color: white;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.container .firstText{
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4.5em;
+    height: auto;
+    width: 100%; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.firstText p:last-child{
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.container .main{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+     display: grid;
+     justify-content: center;
+     color: black;
+}
+.main .box{
+    /* width: 450px; */
+    background-color: rgb(233, 230, 230);
+    color: rgb(82, 80, 80);
+    padding: 20px;
+    font-size: 20px;
+    margin: 30px;
+}
+.main .btn button{
+    background-color: rgb(186, 245, 24);
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 12px;
+    border: none;
+    color: white;
+    margin: 20px 0;
+    box-shadow: 3px 3px 0 0 rgb(189, 188, 188);
+}
+.btn button:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.section1{
+    margin: 80px 30px;
+}
+.section1 .about{
+    text-align: center;
+    color: rgb(105, 104, 104);
+    font-size: 21px;
+    font-family: Arial, ;
+    line-height: 30px;
+    font-weight: 510;
+}
+.section1 .about p:first-child{
+    font-size: 35px;
+    letter-spacing: 3px ;
+    color: rgb(73, 73, 73);
+    font-family: 'Roboto', sans-serif;
+}
+
+.productBox{
+    color: rgb(105, 104, 104);
+    margin: 50px  30px;
+    
+}
+.productBox p:first-child{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 40px;
+}
+.imgPro{
+    display: grid;
+    justify-content: center;
+}
+.imgPro img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.textPro{
+    margin: 20px 0;
+    font-size: 19px;
+    display: grid;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.textPro h4{
+    font-size: 24px;
+}
+
+.section2{
+    background-color: rgb(87, 81, 81);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    margin-top: 140px;
+    padding: 60px 40px;
+}
+.section2 .box_img img{
+    width: 100%;
+}
+.section2 .box_img{
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+}
+.section2 .box{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    color: white;
+}
+.section2 .box h2{
+    margin: 35px 0;
+    text-align: center;
+    font-size: 45px;
+}
+.section2 .box h4{
+    font-size: 29px;
+    line-height: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+.section2 .box p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(182, 179, 179);
+}
+
+.section3{
+    background-image: url(./images/french-fries_806675-766.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.section3 .box{
+    font-size: 28px;
+    font-family:  'Roboto', sans-serif;   
+    width: 100%;
+    white-space: 10px;
+    text-align: center;
+}
+.section3 .box .boxP{
+    margin: 30px 0;
+    padding: 0 20px;
+}
+.section3 .imgBox img{
+    margin-top:70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.imgBox h5{
+    color: yellow;
+    font-weight: 100;
+}
+.imgBox p{
+    font-weight: 100;
+    font-size: 19px;
+}
+
+footer{
+    background-color: rgb(87, 81, 81);
+    color: rgb(182, 179, 179); 
+    text-align: center;
+    padding: 60px;
+}
